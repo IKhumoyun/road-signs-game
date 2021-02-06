@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.signs-holder {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.road-sign-btn {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+
+  &.active {
+    border: 2px solid red;
+  }
+
+  .road-sign-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
